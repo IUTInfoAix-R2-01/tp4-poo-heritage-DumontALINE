@@ -28,7 +28,7 @@ public class Staff extends Person{
 	
 	@Override
 	public String toString() {
-		return "Student[Person[name =?, adresse =?] school=?, paye=?";
+		return "staff[" + super.toString() + "school=" + school + "paye = " + paye + "]" ; 
 	}
 	
 }

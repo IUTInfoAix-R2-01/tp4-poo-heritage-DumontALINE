@@ -11,6 +11,6 @@ public class cat extends mammal {
 	}
 	
 	public String toString() {
-		return "cat[mammal[animal[name =]]]";
+		return "cat[" + super.toString() + "]";
 	}
 }

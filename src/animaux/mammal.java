@@ -7,6 +7,6 @@ public class mammal extends animal{
 	}
 	
 	public String toString() {
-		return "mammal[animal[name = ]]";
+		return "mammal[" + super.toString() + "]";
 	}
 }
